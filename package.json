@@ -10,7 +10,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "clean": "rm -rf dist server.js",
-    "lint": "tsc --noEmit"
+    "lint": "tsc --noEmit",
+    "postinstall": "npm approve-scripts --allow-scripts-pending"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.1.0",
